@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E20763F2-84B6-4AB8-AA8C-8CBFF537C362}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QL_NhaHang_4</RootNamespace>
+    <AssemblyName>QL_NhaHang_4</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChiTietHoaDon.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ChiTietHoaDon.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCapTaiKhoanNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCapTaiKhoanNV.Designer.cs">
+      <DependentUpon>frmCapTaiKhoanNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCauHinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCauHinh.Designer.cs">
+      <DependentUpon>frmCauHinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInHoaDon.Designer.cs">
+      <DependentUpon>frmInHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLuongNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLuongNhanVien.Designer.cs">
+      <DependentUpon>frmLuongNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLiDoanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLiDoanhThu.Designer.cs">
+      <DependentUpon>frmQuanLiDoanhThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLiNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLiNhanVien.Designer.cs">
+      <DependentUpon>frmQuanLiNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaiKhoan.Designer.cs">
+      <DependentUpon>frmTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThemBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThemBan.Designer.cs">
+      <DependentUpon>frmThemBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_Forms\frmDanhSachMon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Forms\frmDanhSachMon.Designer.cs">
+      <DependentUpon>frmDanhSachMon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_Forms\frmOrderMon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Forms\frmOrderMon.Designer.cs">
+      <DependentUpon>frmOrderMon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QL_NhaHang.cs">
+      <DependentUpon>QL_NhaHang.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QL_NhaHang.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QL_NhaHang.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ThemeColor.cs" />
+    <EmbeddedResource Include="ChiTietHoaDon.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ChiTietHoaDon.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCapTaiKhoanNV.resx">
+      <DependentUpon>frmCapTaiKhoanNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCauHinh.resx">
+      <DependentUpon>frmCauHinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInHoaDon.resx">
+      <DependentUpon>frmInHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLuongNhanVien.resx">
+      <DependentUpon>frmLuongNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLiDoanhThu.resx">
+      <DependentUpon>frmQuanLiDoanhThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLiNhanVien.resx">
+      <DependentUpon>frmQuanLiNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTaiKhoan.resx">
+      <DependentUpon>frmTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThemBan.resx">
+      <DependentUpon>frmThemBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Forms\frmDanhSachMon.resx">
+      <DependentUpon>frmDanhSachMon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Forms\frmOrderMon.resx">
+      <DependentUpon>frmOrderMon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QL_NhaHang.xsc">
+      <DependentUpon>QL_NhaHang.xsd</DependentUpon>
+    </None>
+    <None Include="QL_NhaHang.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QL_NhaHang.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="QL_NhaHang.xss">
+      <DependentUpon>QL_NhaHang.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choices.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purchase-order-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamburger-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamburger-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_yaki.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoyaki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bill-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nuong1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nuong11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hap.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lau.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\com.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thucuong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khangiay.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payment-method %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\access-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{adc78cee-dd75-4459-8252-e7961595129e}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{7282f569-1561-4fa5-b020-ae64fcce138d}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

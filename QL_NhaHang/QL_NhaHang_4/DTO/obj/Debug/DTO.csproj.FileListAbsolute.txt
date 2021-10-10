@@ -1,0 +1,11 @@
+D:\Documents\09DHTH1\09DHTH_KDCLPMem\DoAn\QL_NhaHang_4\DTO\bin\Debug\DTO.dll
+D:\Documents\09DHTH1\09DHTH_KDCLPMem\DoAn\QL_NhaHang_4\DTO\bin\Debug\DTO.pdb
+D:\Documents\09DHTH1\09DHTH_KDCLPMem\DoAn\QL_NhaHang_4\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Documents\09DHTH1\09DHTH_KDCLPMem\DoAn\QL_NhaHang_4\DTO\obj\Debug\DTO.dll
+D:\Documents\09DHTH1\09DHTH_KDCLPMem\DoAn\QL_NhaHang_4\DTO\obj\Debug\DTO.pdb
+D:\QLNhaHang\KDCLPM\QL_NhaHang_4\DTO\bin\Debug\DTO.dll
+D:\QLNhaHang\KDCLPM\QL_NhaHang_4\DTO\bin\Debug\DTO.pdb
+D:\QLNhaHang\KDCLPM\QL_NhaHang_4\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\QLNhaHang\KDCLPM\QL_NhaHang_4\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\QLNhaHang\KDCLPM\QL_NhaHang_4\DTO\obj\Debug\DTO.dll
+D:\QLNhaHang\KDCLPM\QL_NhaHang_4\DTO\obj\Debug\DTO.pdb
